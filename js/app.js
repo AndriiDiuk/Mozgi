@@ -19,7 +19,7 @@
       const e = document.querySelector(".burger__btn"),
         t = document.querySelector(".nav-burger");
       e.addEventListener("click", () => {
-        t.classList.toggle("active-burger");
+        t.classList.toggle("active-burger"), console.log("11");
       }),
         t.addEventListener("click", (e) => {
           e.target === t && t.classList.toggle("active-burger");
@@ -34,7 +34,7 @@
       };
     };
   window.addEventListener("DOMContentLoaded", () => {
-    e(), n(), o();
+    e(), n(), document.documentElement.clientWidth >= 720 && o();
   }),
     (window.FLS = !0),
     (function (e) {
