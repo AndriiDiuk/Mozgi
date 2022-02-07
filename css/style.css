@@ -182,6 +182,7 @@ body {
 }
 .header__language-wrapper {
   width: 100%;
+  z-index: 26;
 }
 @media (min-width: 117.375em) {
   .header__language-wrapper {
@@ -219,7 +220,6 @@ body {
 }
 .header__language {
   display: flex;
-  z-index: 26;
   justify-content: flex-start;
   align-items: center;
   border-radius: 150px;
